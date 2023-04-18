@@ -14,7 +14,12 @@ Considerations for Python API documentation
 SQR-077
 =======
 
-SQuaRE is currently generating Python API documentation using Sphinx plus automodapi and autodoc_pydantic. This mostly works, but exposes a few bugs and imperfections in the Sphinx extension stack. This tech note discusses the goals for API documentation, current shortcomings, and possible alternatives.
+SQuaRE is currently generating Python API documentation using Sphinx plus sphinx-automodapi_ and autodoc_pydantic_.
+This mostly works, but exposes a few bugs and imperfections in the Sphinx extension stack.
+This tech note discusses the goals for API documentation, current shortcomings, and possible alternatives.
+
+.. _sphinx-automodapi: https://sphinx-automodapi.readthedocs.io/en/latest/
+.. _autodoc_pydantic: https://autodoc-pydantic.readthedocs.io/en/stable/
 
 **Links:**
 
