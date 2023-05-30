@@ -37,14 +37,17 @@ authors:
 copyright: "2023, Association of Universities for Research in Astronomy, Inc. (AURA)"
 
 # Description. A short, 1-2 sentence statemement used by document indices.
-description: "SQuaRE is currently generating Python API documentation using Sphinx plus automodapi and autodoc_pydantic. This mostly works, but exposes a few bugs and imperfections in the Sphinx extension stack. This tech note discusses the goals for API documentation, current shortcomings, and possible alternatives."
+description: >
+  Summarizes current issues in generating Python API documentation and
+  discusses possible alternative approaches.
 
 # Abstract, if available
-# abstract: >
-#           Write your paragraph
-#           here with multiple lines.
-#
-#           You can have multiple paragraphs too.
+abstract: >
+  SQuaRE is currently generating Python API documentation using Sphinx plus
+  automodapi and autodoc_pydantic. This mostly works, but exposes a few bugs
+  and imperfections in the Sphinx extension stack. This tech note discusses
+  the goals for API documentation, current shortcomings, and possible
+  alternatives.
 
 # URL where this document is published by Read the Docs. e.g. http://sqr-001.lsst.codes
 url: "https://sqr-077.lsst.io"
